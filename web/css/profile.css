@@ -1,0 +1,68 @@
+/*
+This css file is used in profile.jsp
+*/
+
+#addresslabelrow,#endaddressrow{
+ background-color:#e6f2ff;
+ /*color: white; */    
+}
+tr{
+background-color: #e6fff7;        
+}
+.modal-header{
+/*background-color:#ebebe0; */ 
+border-radius: 10px;
+}
+input:focus{
+ background-color: #e6fff5;    
+}
+#loadingheader{
+ background-color: #99004d;   
+ color:white;   
+}
+.btn.btn-link{
+ color:blue;   
+}
+.btn.btn-link:hover{
+ background-color:#006622 ; 
+ color:white;  
+ border-radius:10px;
+}
+.btn.btn-link:active{
+ background-color: #001a09;
+ color: white;
+}
+#deletebuttonforrole,.deletebutton {
+    background: none;
+    border: none;
+    display: inline;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    outline-offset: 0;
+    /* Additional styles to look like a link */
+    color: blue;
+    cursor: pointer;
+    /*text-decoration: underline*/
+}
+.deletebutton:hover{
+ text-decoration: underline;  
+ background-color:red;
+ color: white;
+ border-radius: 10px;
+}
+.deletebutton:active{
+ background-color:#001a09; 
+ color: white;    
+}
+#deletebuttonforrole:hover{
+ text-decoration: underline;  
+ background-color:red;
+ color: white;
+ border-radius: 10px;     
+}
+#deletebuttonforrole:active{
+background-color:#001a09; 
+color: white;    
+}
